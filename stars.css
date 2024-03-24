@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(254, 232, 220, 0.464);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+.hero-card img {
+    max-width: 100%;
+    min-height: 220px;
+}
+
+.info {
+    display: none;
+    text-align: left;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+
+button {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
